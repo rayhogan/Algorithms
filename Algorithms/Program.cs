@@ -6,7 +6,8 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Nothing to interact with here... yet");
+            Console.WriteLine("Try running the Unit Tests");
         }
     }
 }
