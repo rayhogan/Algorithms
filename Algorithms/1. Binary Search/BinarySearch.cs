@@ -37,5 +37,33 @@ namespace Algorithms
             }
             return -1;
         }
+
+        public static int FindIndex(string[] input, string searchWord)
+        {
+            int low = 0;
+            int high = input.Length - 1;
+
+            while (low <= high)
+            {
+                int mid = (low + high) / 2;
+                string guess = input[mid];
+
+                int res = searchWord.CompareTo(guess);
+
+                if (guess == searchWord)
+                {
+                    return mid;
+                }
+                else if (res < 0)
+                {
+                    high = mid - 1;
+                }
+                else if (res > 0)
+                {
+                    low = mid + 1;
+                }
+            }
+            return -1;
+        }
     }
 }
