@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Algorithms
 {
@@ -8,6 +9,8 @@ namespace Algorithms
         {
             Console.WriteLine("Nothing to interact with here... yet");
             Console.WriteLine("Try running the Unit Tests");
+
         }
+
     }
 }
