@@ -33,5 +33,17 @@ namespace Algorithms.TreeTraversal
             }
             
         }
+
+        public static void PostOrderTravseral(Node node)
+        {
+            // Left, Right, Root
+            if (node.Left != null)
+            {
+                PostOrderTravseral(node.Left);
+                PostOrderTravseral(node.Right);
+            }
+            Console.WriteLine(node.Value);
+
+        }
     }
 }

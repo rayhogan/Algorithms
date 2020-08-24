@@ -24,7 +24,7 @@ namespace Algorithms
             one.Left = two;
             one.Right = three;
 
-            TreeTraversal.TreeTraversal.PreOrderTravseral(one);
+            TreeTraversal.TreeTraversal.PostOrderTravseral(one);
 
 
         }
