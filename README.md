@@ -8,5 +8,6 @@ Includes the following:
 4. Quick Sort
 5. Merge Sort
 6. Tree Traversal
+7. Greedy Change (Euro Denominations)
 
 More coming soon.
